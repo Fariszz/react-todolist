@@ -1,15 +1,37 @@
 {
-    "posts": [{
-        "id": 1,
-        "title": "json-server",
-        "author": "typicode"
-    }],
-    "comments": [{
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
-    }],
-    "profile": {
-        "name": "typicode"
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1621340489636,
+      "title": "",
+      "userId": 1,
+      "body": "test"
+    },
+    {
+      "id": 1621340520457,
+      "title": "",
+      "userId": 1,
+      "body": "mandi"
+    },
+    {
+      "id": 1621341487454,
+      "title": "",
+      "userId": 1,
+      "body": "eeq"
     }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
