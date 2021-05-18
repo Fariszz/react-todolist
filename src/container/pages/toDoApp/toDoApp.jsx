@@ -39,6 +39,12 @@ class toDoApp extends Component{
         })
     }
 
+    handleRemove = (data) => {
+        axios.delete(`http://localhost:3004/posts/${data}`).then((res) =>{
+            this.getPostAPI()
+        })
+    }
+
     handleFormChange = (event) =>{
         let formToDoNew = {...this.state.formToDo}
         let timeStamp = new Date().getTime()
@@ -70,7 +76,7 @@ class toDoApp extends Component{
                 </div>          
                 {
                     this.state.post.map(post => {
-                        return <Post key={post.id} data={post} />
+                        return <Post key={post.id} data={post} remove={this.handleRemove}/>
                     })
                 }                                        
             </Fragment>

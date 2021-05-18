@@ -1,11 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
       "id": 1621340489636,
       "title": "",
       "userId": 1,
@@ -18,31 +13,19 @@
       "body": "mandi"
     },
     {
-      "id": 1621341487454,
-      "title": "",
-      "userId": 1,
-      "body": "eeq"
-    },
-    {
       "id": 1621343121456,
       "title": "",
       "userId": 1,
       "body": "main"
     },
     {
-      "id": 1621344968370,
+      "id": 1621351070107,
       "title": "",
       "userId": 1,
-      "body": "add"
+      "body": "basket dong"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }

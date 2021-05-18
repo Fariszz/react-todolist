@@ -6,6 +6,26 @@
     border-radius: 4px;
 }
 
+.post{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 500px;
+    padding: 10px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.remove{
+    padding: 12px 18px;
+    background: red;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 18px;
+}
+
 .form-todo textarea{
     outline: none;
     border: 1px solid #607D8B;
