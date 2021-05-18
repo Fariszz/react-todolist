@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import './toDoApp.css';
+import Post from '../../../component/Post/Post';
 import axios from 'axios';
 
 class toDoApp extends Component{
@@ -66,7 +67,12 @@ class toDoApp extends Component{
                     <textarea name="body" id="body" cols="30" rows="5" placeholder="Add ToDo" value={this.state.formToDo.body} onChange={this.handleFormChange}>                    
                     </textarea>                    
                     <button type="submit" className="btn-submit" onClick={this.handleSubmit}>Submit</button>
-                </div>                                                  
+                </div>          
+                {
+                    this.state.post.map(post => {
+                        return <Post key={post.id} data={post} />
+                    })
+                }                                        
             </Fragment>
             
         )
