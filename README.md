@@ -71,6 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Start
 
-`npm start' 
+### `npm start' 
 
-'json-server --watch db.json --port 3004`
+### 'json-server --watch db.json --port 3004`
